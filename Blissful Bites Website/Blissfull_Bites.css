@@ -1,0 +1,146 @@
+body {
+    padding: 0%;
+}
+
+div {
+    padding: 10px;
+}
+
+header {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid darkgoldenrod;
+    border-width: 200% ;
+    padding: 0;
+    height: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: -60px;
+}
+
+a {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+
+.d1 {
+    background-color:azure;
+    border: 1px solid white;
+    height: 300px;
+    border: 1px solid darkgoldenrod
+}
+
+.d1 h1 {
+    text-align: center;
+    padding: 30px;
+    color: darkgoldenrod;
+    margin: 30px;
+}
+
+
+.pq{
+    text-align: center;
+    padding: 20px ;
+    margin: -40px
+}
+
+.d2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 15px;
+    grid-template-rows: auto auto auto;
+    row-gap: 30px;
+    border: 1px solid darkgoldenrod;
+}
+
+.d2 h1 {
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item1 {
+    color: darkgoldenrod;
+    text-align: center;
+    grid-row:2 ;
+}
+
+.item2 {
+    color: darkgoldenrod;
+    text-align: center;
+    grid-row:3 ;
+}
+
+
+.img1 {
+    transition: width 2s, height 2s;
+    border: none;
+    border-radius: 3cm;
+}
+
+.img1:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.d3{
+    background-color:azure ;
+    border: 1px solid darkgoldenrod;
+    text-align: center;
+    height: 200px;
+}
+
+.d3 h2 {
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.d4{
+    background-color: rgb(192,224,216) ;
+    border: 1px solid darkgoldenrod;
+    text-align: center;
+    height: 400px;
+}
+
+.d4 h2 {
+    margin: 100px;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.d3 p {
+    margin: 20px;
+}
+
+.d4 p{
+    margin: -65px;
+}
+
+.b1 {
+    background-color: whitesmoke;
+    color: darkgoldenrod;
+    font-size: small;
+    border: 1px solid darkgoldenrod;
+    border-radius: 50px;
+    width: 150px;
+    height: 25px;
+}
+
+.b2 {
+    background-color: whitesmoke;
+    color: darkgoldenrod;
+    font-size: small;
+    border: 1px solid darkgoldenrod;
+    border-radius: 50px;
+    width: 150px;
+    height: 25px;
+    margin: 100px;
+}

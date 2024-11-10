@@ -1,0 +1,66 @@
+body {
+    padding: 0%;
+}
+
+div {
+    padding: 10px;
+}
+
+header {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid darkgoldenrod;
+    border-width: 200% ;
+    padding: 0;
+    height: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: -60px;
+}
+
+a {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+
+.pq{
+    text-align: center;
+    padding: 20px ;
+    margin: -40px
+}
+
+.d1 {
+    background-color:azure;
+    border: 1px solid white;
+    height: 300px;
+    border: 1px solid darkgoldenrod
+}
+
+.d1 h1 {
+    text-align: center;
+    padding: 30px;
+    color: darkgoldenrod;
+    margin: 30px;
+}
+
+.d4{
+    background-color: rgb(192,224,216) ;
+    border: 1px solid darkgoldenrod;
+    text-align: center;
+    height: 400px;
+}
+
+.d4 h2 {
+    margin: 40px;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.p2{
+    margin: 20px;
+}
+
